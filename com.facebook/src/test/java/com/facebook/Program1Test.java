@@ -18,7 +18,7 @@ public class Program1Test extends BaseClass{
 	public void TestCase(){
 		
 		driver.findElement(By.xpath("//a[@class='ico-login']")).click();
-		driver.findElement(By.xpath("//input[@class='Email']")).sendKeys("muhilbharathi1997@gmai.com");
+		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("muhilbharathi1997@gmai.com");
 		
 		
 	}
