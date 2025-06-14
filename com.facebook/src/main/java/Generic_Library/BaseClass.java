@@ -37,7 +37,7 @@ public class BaseClass extends WebDriver_Utility{
 		driver = new ChromeDriver();
 		maximize_browser();
 		implicitwait(15);
-		navigateapplication("https://demowebshop.tricentis.com");
+		navigateapplication("https://www.ilovepdf.com/word_to_pdf");
 	}
 	
 	@AfterClass

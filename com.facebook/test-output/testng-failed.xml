@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.Program1Test">
+      <class name="com.facebook.FileUpload">
         <methods>
           <include name="closeBrowser"/>
           <include name="ClosingDB"/>
-          <include name="ClosingServer"/>
           <include name="TestCase"/>
+          <include name="ClosingServer"/>
           <include name="OpeningDB"/>
           <include name="openBrowser"/>
           <include name="OpenServer"/>
         </methods>
-      </class> <!-- com.facebook.Program1Test -->
+      </class> <!-- com.facebook.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
